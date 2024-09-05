@@ -1,0 +1,149 @@
+/*Importing Google Font Roboto*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px
+    font-weight: 500;
+}
+
+h1{
+    font-size: 56px;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 28px;
+    font-weight: 400;
+    padding: 2px 24px;
+}
+
+p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.content-wrapper {
+    background: url('https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png');
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav{
+    height: 60px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-container{
+    width: 125px;
+    height: 60px;
+    display: flex;
+    cursor: pointer;
+}
+
+.middle-section > ul{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.middle-section > ul > li{
+    display: flex;
+    align-items: center;
+}
+
+.middle-section > ul > li > a:hover{
+    background-color: #ddd;
+    cursor: pointer;
+    color: #000;
+
+}   
+
+.middle-section > ul > li > a{
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 6px;
+}
+
+.icons-section{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #fff;
+}
+
+.icons-section:hover{
+    cursor: pointer;
+}
+
+.main-content{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: calc(70px - 60px);
+}
+
+.main-content > a{
+    color: white;
+    font-size: 28px;
+    text-underline-offset: 7px;
+}
+
+.buttons-section{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.blue-btn, .white-btn{
+    padding: 12px  97px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 9px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.blue-btn{
+background-color: #3e6ae0;
+color: #fff;
+}
+
+.blue-btn:hover{
+    background-color: #fefefe;
+    color: #515458;
+    }
+
+.white-btn{
+background-color: #fefefe;
+color: #515458;
+}
+
+.white-btn:hover{
+    background-color: #3e6ae0;
+    color: #fff;
+    }
+
+main{
+    text-align: center;
+    height: calc(100vh - 60px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
